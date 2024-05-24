@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url(./fonts/JetBrainsMono-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "JetBrains Mono", source-code-pro, Menlo, Monaco,
+                Consolas, 'Courier New', monospace;
+  background-color: #080808;
+  border-radius: 8px;
+  padding: 16px;
+  display: block;
+  min-width: 25em;
+  max-width: 60vw;
+  min-height: 4em;
+  max-height: 25em;
+  white-space: pre;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  margin-bottom: 2rem;
+}
