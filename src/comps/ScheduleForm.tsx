@@ -17,7 +17,7 @@ class ScheduleForm extends Component<any, any> {
     constructor(props: any) {
         super(props);
         this.state = {
-            format: "AndyFin",
+            format: "Regular",
             name: "Regular",
             days: [{
                 day: "",
@@ -177,7 +177,7 @@ class ScheduleForm extends Component<any, any> {
                         <TextField
                             label="Schedule Name"
                             variant="outlined"
-                            disabled={this.state.format !== "AndyFin"}
+                            disabled={this.state.format !== "Regular"}
                             onChange={event => {
                                 const days = [...this.state.days];
                                 days[dayIndex].bell.scheduleName = event.target.value;
